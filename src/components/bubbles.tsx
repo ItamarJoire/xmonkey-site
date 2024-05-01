@@ -30,7 +30,7 @@ const Span = styled.span`
   0 0 50px #fff,
   0 0 100px #fff;
 
-  animation: ${risingAnimation} calc(300s / var(--i)) linear infinite;
+  animation: ${risingAnimation} calc(200s / var(--i)) linear infinite;
 `
 interface CustomCSSProperties extends React.CSSProperties{
   "--i"?: string;
