@@ -2,32 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+/* .container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.bubbles{
+  position: absolute;
+  display: flex;
+}
+
+.bubbles span{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #e5ff00;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #e5ff0044,
+  0 0 50px #e5ff00,
+  0 0 100px #e5ff00;
+
+  animation: rising calc(30s / var(--i)) linear infinite;
+}
+
+.bubbles span:nth-of-type(even){
+  background: #2dc3ff;
+  box-shadow: 0 0 0 10px #2dc3ff44,
+  0 0 50px #2dc3ff,
+  0 0 100px #2dc3ff;
+}
+
+@keyframes rising {
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+} */
