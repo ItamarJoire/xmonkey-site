@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+/* button:hover .spanHoverEffect{
+  transition: all .5s;
+  width: calc(100% - 3.25rem);
+} */
 
 /* .container{
   position: relative;
