@@ -42,7 +42,7 @@ export function Hero(){
 
   return(
     <section className="flex justify-center bg-gradient-to-b from-[#0D243E]  to-[#03090F]  h-screen">  
-      <div className="mt-52 flex flex-col justify-center items-center  absolute z-[2]">
+      <div className="mt-32 flex flex-col justify-center items-center  absolute z-[2]">
         <Image 
           ref={logoRef}
           src={LogoXmonkey} 

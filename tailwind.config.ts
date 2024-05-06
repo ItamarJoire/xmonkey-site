@@ -13,6 +13,19 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "orange-dark": "#FF7205",
+        "orange-light": "#FF9405",
+        "orange-semi-light": "#FFA122",
+        
+        "blue-dark": "#0F2844",
+        "blue-light": "#FF9405",
+
+        "title": "#E4E4E7",
+        "body": "#A1A1AA",
+
+        fund: "#03090F",
+      },
     },
     fontFamily: {
       lufga: ['var(--font-lufga)'],
@@ -20,4 +33,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;

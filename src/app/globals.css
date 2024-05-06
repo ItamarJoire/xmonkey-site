@@ -8,48 +8,12 @@
   }
 }
 
-/* button:hover .spanHoverEffect{
-  transition: all .5s;
-  width: calc(100% - 3.25rem);
-} */
-
-/* .container{
-  position: relative;
-  width: 100%;
-  height: 100vh;
+.title-section{
+  @apply font-["Lufga"] text-4xl text-title font-black;
 }
 
-.bubbles{
-  position: absolute;
-  display: flex;
+.body-section{
+  @apply text-body mt-4 max-w-[507px];
 }
 
-.bubbles span{
-  display: block;
-  width: 30px;
-  height: 30px;
-  background: #e5ff00;
-  margin: 0 4px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 10px #e5ff0044,
-  0 0 50px #e5ff00,
-  0 0 100px #e5ff00;
 
-  animation: rising calc(30s / var(--i)) linear infinite;
-}
-
-.bubbles span:nth-of-type(even){
-  background: #2dc3ff;
-  box-shadow: 0 0 0 10px #2dc3ff44,
-  0 0 50px #2dc3ff,
-  0 0 100px #2dc3ff;
-}
-
-@keyframes rising {
-  0%{
-    transform: translateY(100vh) scale(0);
-  }
-  100%{
-    transform: translateY(-10vh) scale(1);
-  }
-} */
