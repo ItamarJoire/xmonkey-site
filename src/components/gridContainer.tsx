@@ -6,6 +6,6 @@ interface GridContainerProps {
 
 export function GridContainter({children} : GridContainerProps){
   return(
-    <div className="mx-4 lg:mx-80">{children}</div>
+    <div className="mx-4 md:mx-12 lg:mx-80">{children}</div>
   )
 }
