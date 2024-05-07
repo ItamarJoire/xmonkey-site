@@ -54,8 +54,8 @@ export function Work(){
         </div>
       </div>
 
-      <div className="mt-12 p-[2px] bg-gradient-to-r from-orange-dark to-orange-semi-light max-w-[700px] mx-auto rounded-sm lg:max-w-[1000px] lg:h-[500px]">
-        <ReactPlayer url='https://www.youtube.com/watch?v=ZtoEXyNUXUI&t=2s' width='100%' height='100%d' controls/>
+      <div className="mt-12  p-[1.6px] bg-gradient-to-r from-orange-dark to-orange-semi-light max-w-[700px] h-[180px] mx-4 rounded-sm md:mx-auto lg:max-w-[1000px] lg:h-[500px]">
+        <ReactPlayer url='https://www.youtube.com/watch?v=ZtoEXyNUXUI&t=2s' width='100%' height='100%' controls/>
       </div>
     </section>
   )
