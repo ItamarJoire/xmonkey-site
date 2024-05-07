@@ -8,7 +8,7 @@ import IconFace from '/public/face.svg'
 
 export function Footer(){
   return(
-    <footer className="py-16 bg-fund">
+    <footer className="py-10 bg-fund">
       <div>
         <GridContainer>
           <div className="text-white ring-1 ring-[#424344]/50"></div>

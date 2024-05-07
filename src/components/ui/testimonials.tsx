@@ -4,7 +4,7 @@ import { CarouselTestimonials } from "../carouselTestimonials";
 
 export function Testimonials(){
   return(
-    <section className="py-16 bg-fund">
+    <section className="py-10 bg-fund">
       <div className="mx-4 md:mx-24  lg:grid lg:grid-cols-2 lg:mx-[460px]">
         <div>
           <h1 className="title-section">Relatos de quem já <br />contratou a <span className="text-orange-dark">Xmonkey</span></h1>

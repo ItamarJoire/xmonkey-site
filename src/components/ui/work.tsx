@@ -11,12 +11,11 @@ import IconPeoples from '/public/peoples.svg'
 import IconPrioritize from '/public/prioritize.svg'
 import IconMoney from '/public/money.svg'
 
-import ImgDisplay from '/public/display.png'
 import { ButtonPrimary } from "../buttonPrimary"
 
 export function Work(){
   return(
-    <section className="py-16 bg-fund">
+    <section className="py-10 bg-fund">
       <GridContainer>
         <h1 className="title-section text-center">Como <span className="text-orange-dark">trabalhamos</span></h1>
       </GridContainer>

@@ -10,7 +10,7 @@ import { ButtonPrimary } from '../buttonPrimary'
 
 export function Assessments(){
   return(
-    <section className='py-16 bg-fund bg-[url("/logo-bg.png")] bg-contain bg-no-repeat bg-center'>
+    <section className='py-10 bg-fund bg-[url("/logo-bg.png")] bg-contain bg-no-repeat bg-center'>
      <GridContainer>
       <div>
         <h2 className='title-section text-3xl text-center'>Não somos nós que estamos dizendo.<br /> Dá uma conferida nas nossas avaliações:
@@ -18,7 +18,7 @@ export function Assessments(){
       </div>
      </GridContainer>
 
-     <div className='mx-4 md:mx-24 lg:mx-[440px]'>
+     <div className='mx-4 md:mx-16 lg:mx-[440px]'>
       <CarouselComments />
      </div>
 
@@ -28,7 +28,7 @@ export function Assessments(){
           <h2 className='title-section text-3xl text-center'>E aqui está mais alguns clientes que <br /><span className='text-orange-dark'>fazem parte do nosso time</span></h2>
         </div>
 
-        <div className='mt-7 grid grid-cols-2 mx-auto md:grid-cols-3 lg:grid-cols-5'>
+        <div className='mt-7 grid grid-cols-3 gap-4 mx-auto md:grid-cols-4 lg:grid-cols-5'>
           {
             Brands.map((brand, index) => (
               <Image src={brand.src} alt={brand.alt} width={112} height={112}/>

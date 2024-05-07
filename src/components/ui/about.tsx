@@ -7,7 +7,7 @@ import { ButtonPrimary } from "../buttonPrimary";
 
 export function About(){
   return(
-    <section className="py-16 bg-fund">
+    <section className="py-10 bg-fund">
       <GridContainer>
       <div className="flex justify-center ">
         <div className="lg:flex">
