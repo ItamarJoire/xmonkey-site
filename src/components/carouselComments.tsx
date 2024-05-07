@@ -65,9 +65,11 @@ export function CarouselComments() {
               slidesPerView: 2
             },
             740: {
+              slidesPerView: 2
+            },
+            1100: {
               slidesPerView: 3
             }
-
           }}
         >
           {

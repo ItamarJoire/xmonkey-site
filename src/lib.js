@@ -48,10 +48,25 @@ export const Comments = [
 ]
 
 export const Brands = [
-  { src:'/brands/brand-1.png', alt:'' },
-  { src:'/brands/brand-2.png', alt:'' },
-  { src:'/brands/brand-3.png', alt:'' },
-  { src:'/brands/brand-4.png', alt:'' },
-  { src:'/brands/brand-5.png', alt:'' },
-  { src:'/brands/brand-6.png', alt:'' },
+  { src: '/brands/brand-1.png', alt: '' },
+  { src: '/brands/brand-2.png', alt: '' },
+  { src: '/brands/brand-3.png', alt: '' },
+  { src: '/brands/brand-4.png', alt: '' },
+  { src: '/brands/brand-5.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-2.png', alt: '' },
+  { src: '/brands/brand-3.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-1.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-2.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-1.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-5.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' },
+  { src: '/brands/brand-6.png', alt: '' }
 ]

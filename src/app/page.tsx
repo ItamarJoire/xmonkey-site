@@ -5,6 +5,8 @@ import { Testimonials } from "@/components/ui/testimonials";
 import { Work } from "@/components/ui/work";
 import { Range } from "@/components/range";
 import { Assessments } from "@/components/ui/assessments";
+import { About } from "@/components/ui/about";
+import { Footer } from "@/components/ui/footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Testimonials />
       <Range />
       <Assessments />
+      <About />
+      <Footer />
     </main>
   );
 }
