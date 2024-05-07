@@ -57,9 +57,8 @@ export function CarouselTestimonials(){
         spaceBetween={2}
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
         centeredSlides={true}
-        modules={[EffectFade, Navigation, Autoplay, Pagination]}
+        modules={[EffectFade, Navigation, Pagination]}
         pagination={navigationEnabled ? false : true}
         navigation={navigationEnabled ? true : false}
       >   
