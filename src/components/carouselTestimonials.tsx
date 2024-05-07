@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-// import { useMediaQuery } from 'react-responsive';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay, Pagination, EffectFade } from 'swiper/modules'
@@ -12,11 +11,22 @@ import 'swiper/css/pagination';
 
 import { VideosTestimonial } from '../lib'
 
-export function Carousel(){
+interface SwiperProps {
+  [key: string]: string;
+}
+
+const swiperStyles: SwiperProps = {
+  '--swiper-navigation-size': '24px',
+  '--swiper-navigation-top-offset': '50%',
+  '--swiper-navigation-sides-offset': '16px',
+  '--swiper-pagination-color': '#FF7205',
+  '--swiper-navigation-color': '#FF7205',
+};
+
+
+export function CarouselTestimonials(){
   const [navigationEnabled, setNavigationEnabled] = useState(true);
   
-  // const isDesktop = useMediaQuery({ minWidth: 768 })
-
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640 && navigationEnabled) {
@@ -38,19 +48,11 @@ export function Carousel(){
   return (
     
 
-    <div className='mySwiper '>
+    <div className='mySwiper lg:mx-8'>
       <Swiper
-        style={{
-          '--swiper-navigation-size': '24px',
-          '--swiper-navigation-top-offset': '50%',
-          '--swiper-navigation-sides-offset': '16px',
-          
-          '--swiper-pagination-color': '#FF7205',
-          '--swiper-navigation-color': '#FF7205',
-          
-        }}
+        style={swiperStyles}
 
-        className='mySwiper '
+        className='mySwiper'
         effect={'fade'}
         spaceBetween={2}
         slidesPerView={1}

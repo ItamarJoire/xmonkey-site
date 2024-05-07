@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { GridContainter } from '../gridContainer'
+import { GridContainer } from '../gridContainer'
 
 import IconArrowRounded from '/public/arrow-rounded.svg'
 import ImgFunc from '/public/func.svg'
@@ -8,7 +8,7 @@ import ImgFunc from '/public/func.svg'
 export function Highlights(){
   return(
     <section className='py-28 bg-fund'>
-      <GridContainter>
+      <GridContainer>
         <div className='lg:flex lg:items-center'>
           <div>
             <h2 className='title-section'>Por que investir em <br /><span className='text-orange-dark'>marketing digital?</span></h2>
@@ -33,7 +33,7 @@ export function Highlights(){
             <Image src={ImgFunc} alt=''className='w-[552px] h-[512px]'/>
           </div>
         </div>
-       </GridContainter>
+       </GridContainer>
     </section>
     
   )
