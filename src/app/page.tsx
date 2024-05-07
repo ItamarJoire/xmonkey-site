@@ -4,7 +4,6 @@ import { Services } from "@/components/ui/services";
 import { Testimonials } from "@/components/ui/testimonials";
 import { Work } from "@/components/ui/work";
 
-
 export default function Home() {
   return (
     <main>
@@ -13,7 +12,6 @@ export default function Home() {
       <Services />
       <Work />
       <Testimonials />
-
     </main>
   );
 }

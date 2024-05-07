@@ -40,15 +40,15 @@ export function Carousel(){
 
     <div className='mySwiper '>
       <Swiper
-        style={{
-          '--swiper-navigation-size': '24px',
-          '--swiper-navigation-top-offset': '50%',
-          '--swiper-navigation-sides-offset': '16px',
+        // style={{
+        //   '--swiper-navigation-size': '24px',
+        //   '--swiper-navigation-top-offset': '50%',
+        //   '--swiper-navigation-sides-offset': '16px',
           
-          '--swiper-pagination-color': '#FF7205',
-          '--swiper-navigation-color': '#FF7205',
+        //   '--swiper-pagination-color': '#FF7205',
+        //   '--swiper-navigation-color': '#FF7205',
           
-        }}
+        // }}
 
         className='mySwiper '
         effect={'fade'}
