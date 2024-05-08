@@ -40,7 +40,7 @@ const Container = styled.div`
 
 const Slide = styled.div`
   display: flex;
-  animation: ${slideAnimation} 20s infinite linear; 
+  animation: ${slideAnimation} 10s infinite linear; 
 `;
 
 const Item = styled.div`
