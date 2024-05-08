@@ -54,15 +54,15 @@ export function Hero(){
           Xmonkey
         </h1>
         
-        <div ref={subtitleRef} className="mt-6">
-          <p className="text-2xl text-center font-semibold text-[#A1A1AA] text-opacity-80">Nossa meta é bater a sua.</p>
-          <p className="text-2xl text-center font-semibold text-[#A1A1AA] text-opacity-80">Somos <span className="text-[#FF7205]">experts na arte de vendas</span>!</p>
+        <div ref={subtitleRef} className="mt-3">
+          <p className="text-xl md:text-2xl text-center font-semibold text-body text-opacity-80">Nossa meta é bater a sua.</p>
+          <p className="text-xl md:text-2xl text-center font-semibold text-body text-opacity-80">Somos <span className="text-[#FF7205]">experts na arte de vendas</span>!</p>
         </div>
 
         <Link ref={btnRef} href="" target="_blank" className="mt-10">
-          <button className="relative text-[#a1a1aa] transition-all duration-300 hover:text-white z-10 rounded-full px-4 py-1.5 ring-1 ring-[#a1a1aa]/10 hover:ring-white/15">
+          <button className="relative text-[#a1a1aa] text-lg transition-all duration-300 hover:text-white z-10 rounded-full px-5 py-1.5 ring-1 ring-[#a1a1aa]/10 hover:ring-white/15">
             Quero vender mais
-            <span className="absolute inset-9 h-px w-[calc(100%-6.25rem)] bg-gradient-to-r from-orange-400/0 via-orange-400/90 to-orange-400/0 spanHoverEffect"></span>
+            <span className="absolute inset-10 h-px w-[calc(100%-6.25rem)] bg-gradient-to-r from-orange-400/0 via-orange-400/90 to-orange-400/0 spanHoverEffect"></span>
           </button>
         </Link>
 
