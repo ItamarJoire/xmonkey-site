@@ -18,7 +18,7 @@ export function Assessments(){
       </div>
      </GridContainer>
 
-     <div className='mx-4 md:mx-16 lg:mx-[440px]'>
+     <div className='mx-4 md:mx-16 lg:mx-40 2xl:mx-[450px]'>
       <CarouselComments />
      </div>
 

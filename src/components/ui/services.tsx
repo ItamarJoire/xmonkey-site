@@ -9,7 +9,7 @@ import { ButtonPrimary } from "../buttonPrimary";
 
 export function Services(){
   return(
-    <section className="py-28 bg-fund">
+    <section className="py-4 md:py-24 bg-fund">
       <GridContainer>
         <div className="lg:flex lg:flex-col lg:items-center">
           <h1 className="title-section text-center">Nossos <span className="text-orange-dark">serviços</span></h1>
@@ -17,7 +17,7 @@ export function Services(){
         </div>
       </GridContainer>
 
-      <div className="mx-4 md:mx-6 mt-16 grid gap-8 md:grid-cols-2 lg:mx-[590px]">
+      <div className="mx-4 md:mx-6 mt-16 grid gap-8 md:grid-cols-2 lg:mx-[276px] 2xl:mx-[586px]">
         <Card 
           image={ImgSocial} 
           title="Gerenciamento de redes sociais" 

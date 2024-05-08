@@ -12,7 +12,7 @@ export function About(){
       <div className="flex justify-center ">
         <div className="lg:flex">
           <div>
-            <div className="text-center lg:text-left">
+            <div className="">
               <h2 className="title-section">Quem <span className="text-orange-dark">somos</span></h2>
               <p className="body-section">A Xmonkey nasceu da necessidade de empresas se adaptarem a era digital. Viemos como resultado de uma longa jornada de sucesso, mais de 10 anos de experiência em redes sociais, atendimento ao consumidor e vendas.</p>
               <p className="body-section">A Xmonkey nasceu da necessidade de empresas se adaptarem a era digital. Viemos como resultado de uma longa jornada de sucesso, mais de 10 anos de experiência em redes sociais, atendimento ao consumidor e vendas.</p>
@@ -24,7 +24,7 @@ export function About(){
             </div>
           </div>
 
-          <div className="mt-12 ml-16 flex justify-center items-center">
+          <div className="mt-12 lg:ml-16 lg:flex lg:justify-center lg:items-center mx-auto">
             <Image src={ImgAbout} alt=""/>
           </div>
 

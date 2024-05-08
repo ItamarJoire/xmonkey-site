@@ -7,7 +7,7 @@ import ImgFunc from '/public/func.svg'
 
 export function Highlights(){
   return(
-    <section className='py-28 bg-fund'>
+    <section className='py-4 bg-fund'>
       <GridContainer>
         <div className='lg:flex lg:items-center'>
           <div>
@@ -29,7 +29,7 @@ export function Highlights(){
               </div>
             </div>
           </div>
-          <div className='mt-16 lg:ml-8'>
+          <div className='lg:ml-8'>
             <Image src={ImgFunc} alt=''className='w-[552px] h-[512px]'/>
           </div>
         </div>
