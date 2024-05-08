@@ -55,7 +55,7 @@ export function Work(){
       </div>
 
       <div className="mt-12  p-[1.6px] bg-gradient-to-r from-orange-dark to-orange-semi-light max-w-[600px] md:max-w-[740px] h-[320px] md:h-[420px] mx-4 rounded-sm md:mx-auto lg:max-w-[1000px] lg:h-[500px]">
-        <ReactPlayer url='https://www.youtube.com/watch?v=ZtoEXyNUXUI&t=2s' width='100%' height='100%' controls/>
+        <ReactPlayer url='https://www.youtube.com/watch?v=AaWcOSVFbK4' width='100%' height='100%' controls/>
       </div>
 
        <div className="flex justify-center items-center">
