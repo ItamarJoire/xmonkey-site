@@ -95,7 +95,7 @@ export function CarouselComments() {
                       </cite>
                       
                       <div className='mt-8'>
-                        <Image src='/stars.png' alt='' width={100} height={18}/>
+                        <Image src='/stars.svg' alt='' width={100} height={18}/>
                         <p className='mt-2'><span className='text-4xl text-orange-dark'>&ldquo;</span>{comment.text}</p>
                       </div>
                     </blockquote>

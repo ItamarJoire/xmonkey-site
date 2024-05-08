@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { gsap } from "gsap"
 
-import LogoXmonkey from "/public/logo.png"
+import LogoXmonkey from "/public/logo.svg"
 import { Bubbles } from "@/components/bubbles";
 
 export function Hero(){

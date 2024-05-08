@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { GridContainer } from "../gridContainer";
 
-import ImgAbout from '/public/about.png'
+import ImgAbout from '/public/about.svg'
 import { ButtonPrimary } from "../buttonPrimary";
 
 export function About(){

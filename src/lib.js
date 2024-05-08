@@ -7,7 +7,7 @@ export const VideosTestimonial = [
 
 export const Comments = [
   {
-    src: '/people/venera.png',
+    src: '/people/venera.svg',
     alt: '',
     name: 'Venera Carvalho',
     date: 'há 10 meses',
@@ -15,7 +15,7 @@ export const Comments = [
   },
 
   {
-    src: '/people/bruno.png',
+    src: '/people/bruno.svg',
     alt: '',
     name: 'Bruno Gonçalves',
     date: 'há 10 meses',
@@ -23,7 +23,7 @@ export const Comments = [
   },
 
   {
-    src: '/people/vitor.png',
+    src: '/people/vitor.svg',
     alt: '',
     name: 'Vitor Gois',
     date: 'há 11 meses',
@@ -31,7 +31,7 @@ export const Comments = [
   },
 
   {
-    src: '/people/venera.png',
+    src: '/people/venera.svg',
     alt: '',
     name: 'Venera Carvalho',
     date: 'há 10 meses',
@@ -39,7 +39,7 @@ export const Comments = [
   },
 
   {
-    src: '/people/venera.png',
+    src: '/people/venera.svg',
     alt: '',
     name: 'Venera Carvalho',
     date: 'há 10 meses',
@@ -48,25 +48,25 @@ export const Comments = [
 ]
 
 export const Brands = [
-  { src: '/brands/brand-1.png', alt: '' },
-  { src: '/brands/brand-2.png', alt: '' },
-  { src: '/brands/brand-3.png', alt: '' },
-  { src: '/brands/brand-4.png', alt: '' },
-  { src: '/brands/brand-5.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-2.png', alt: '' },
-  { src: '/brands/brand-3.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-1.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-2.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-1.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-5.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' },
-  { src: '/brands/brand-6.png', alt: '' }
+  { src: '/brands/brand-1.svg', alt: '' },
+  { src: '/brands/brand-2.svg', alt: '' },
+  { src: '/brands/brand-3.svg', alt: '' },
+  { src: '/brands/brand-4.svg', alt: '' },
+  { src: '/brands/brand-5.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-2.svg', alt: '' },
+  { src: '/brands/brand-3.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-1.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-2.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-1.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-5.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' },
+  { src: '/brands/brand-6.svg', alt: '' }
 ]
