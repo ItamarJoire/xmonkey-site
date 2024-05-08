@@ -12,7 +12,7 @@ export function Services(){
     <section className="py-4 md:py-24 bg-fund">
       <GridContainer>
         <div className="lg:flex lg:flex-col lg:items-center">
-          <h1 className="title-section text-center">Nossos <span className="text-orange-dark">serviços</span></h1>
+          <h1 className="title-section text-center ">Nossos <span className="text-orange-dark">serviços</span></h1>
           <p className="body-section text-center">Investir em serviços de marketing digital tornou-se uma necessidade para qualquer empresa que deseje <span className="text-title">permanecer relevante e competitiva</span> no mercado atual.</p>
         </div>
       </GridContainer>

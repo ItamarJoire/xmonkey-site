@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Rubik } from "next/font/google";
 import localfont from "next/font/local"
 
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Rubik({ subsets: ["latin"] });
 
 const lufga = localfont({
   src: [

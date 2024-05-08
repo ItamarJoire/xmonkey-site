@@ -9,10 +9,10 @@
 }
 
 .title-section{
-  @apply font-["Lufga"] text-4xl text-title font-black;
+  @apply font-["Lufga"] text-4xl md:text-5xl text-title font-black;
 }
 
 .body-section{
-  @apply text-body mt-4 max-w-[507px] md:max-w-[600px];
+  @apply text-body mt-4 md:text-xl max-w-[507px] md:max-w-[600px];
 }
 

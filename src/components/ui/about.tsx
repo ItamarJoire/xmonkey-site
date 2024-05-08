@@ -24,7 +24,7 @@ export function About(){
             </div>
           </div>
 
-          <div className="mt-12 lg:ml-16 lg:flex lg:justify-center lg:items-center mx-auto">
+          <div className="mt-12 lg:ml-16 md:flex md:justify-center md:items-center mx-auto">
             <Image src={ImgAbout} alt=""/>
           </div>
 

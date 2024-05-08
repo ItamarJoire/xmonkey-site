@@ -20,7 +20,7 @@ export function Work(){
         <h1 className="title-section text-center">Como <span className="text-orange-dark">trabalhamos</span></h1>
       </GridContainer>
 
-      <div className="mx-4 mt-16 space-y-8 md:mx-20 md:grid md:grid-cols-2 lg:grid-cols-3 md:space-y-0 md:gap-8 lg:mx-40 2xl:mx-[450px]">
+      <div className="mx-4 mt-12 md:mt-14 space-y-8 body-section md:mx-20 md:grid md:grid-cols-2 lg:grid-cols-3 md:space-y-0 md:gap-8 lg:mx-40 2xl:mx-[450px]">
         <div>
           <div className="flex gap-2">
             <Image src={IconMoney} alt=""/>

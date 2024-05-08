@@ -87,7 +87,7 @@ export function CarouselComments() {
                           <div className=''>
                             <p>{comment.name}</p>
                             
-                            <p className='font-thin text-body text-sm'>{comment.date}</p>
+                            <p className='font-thin text-body text-sm md:text-base'>{comment.date}</p>
                           </div>
                         </div>
 
@@ -96,7 +96,7 @@ export function CarouselComments() {
                       
                       <div className='mt-8'>
                         <Image src='/stars.svg' alt='' width={100} height={18}/>
-                        <p className='mt-2'><span className='text-4xl text-orange-dark'>&ldquo;</span>{comment.text}</p>
+                        <p className='mt-2'><span className='text-4xl md:text-5xl text-orange-dark'>&ldquo;</span>{comment.text}</p>
                       </div>
                     </blockquote>
                   </div>

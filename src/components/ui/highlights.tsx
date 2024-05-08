@@ -14,7 +14,7 @@ export function Highlights(){
             <h2 className='title-section'>Por que investir em <br /><span className='text-orange-dark'>marketing digital?</span></h2>
             <h4 className='body-section'>Empresas que investem no digital <span className='text-title'>são encontradas com mais facilidade pelo público alvo</span>.</h4>
 
-            <div>
+            <div className='body-section'>
               <div className='flex items-start mt-8'>
                   <Image src={IconArrowRounded} alt="" className='mr-3'/>
                   <p className='text-body max-w-[507px]'>A criação de um <span className='text-title'>site</span>, <span className='text-title'>páginas nas redes sociais </span>e <span className='text-title'>anúncios</span> em ferramentas como <span className='text-title'>Facebook Ads</span> e <span className='text-title'>Google Ads</span>, são ótimas formas de aumentar o alcance da sua marca.</p>
@@ -29,7 +29,7 @@ export function Highlights(){
               </div>
             </div>
           </div>
-          <div className='lg:ml-8'>
+          <div className='md:mt-12 lg:ml-8'>
             <Image src={ImgFunc} alt=''className='w-[552px] h-[512px]'/>
           </div>
         </div>
