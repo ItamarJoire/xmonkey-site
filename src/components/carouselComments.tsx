@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Autoplay, Navigation, Pagination } from 'swiper/modules'
+import { Autoplay, Pagination } from 'swiper/modules'
 
 import { Comments } from '../lib'
  
@@ -91,7 +91,7 @@ export function CarouselComments() {
                           </div>
                         </div>
 
-                        <Image src='/google.png' alt='' width={25} height={25}/>
+                        <Image src='/google.svg' alt='' width={25} height={25}/>
                       </cite>
                       
                       <div className='mt-8'>
