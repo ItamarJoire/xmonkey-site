@@ -15,8 +15,6 @@ export function About(){
             <div className="">
               <h2 className="title-section">Quem <span className="text-orange-dark">somos</span></h2>
               <p className="body-section">A Xmonkey nasceu da necessidade de empresas se adaptarem a era digital. Viemos como resultado de uma longa jornada de sucesso, mais de 10 anos de experiência em redes sociais, atendimento ao consumidor e vendas.</p>
-              <p className="body-section">A Xmonkey nasceu da necessidade de empresas se adaptarem a era digital. Viemos como resultado de uma longa jornada de sucesso, mais de 10 anos de experiência em redes sociais, atendimento ao consumidor e vendas.</p>
-              <p className="body-section">A Xmonkey nasceu da necessidade de empresas se adaptarem a era digital. Viemos como resultado de uma longa jornada de sucesso, mais de 10 anos de experiência em redes sociais, atendimento ao consumidor e vendas.</p>
             </div>
 
             <div className="flex justify-center items-center lg:block">

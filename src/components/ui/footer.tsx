@@ -19,8 +19,8 @@ export function Footer(){
           </div>
 
           <div className="flex justify-center gap-3 mt-3">
-            <Link href=''><Image src={IconInsta} alt="" width={24} height={24} className="opacity-60"/></Link>
-            <Link href=''><Image src={IconFace} alt="" width={24} height={24} className="opacity-60"/></Link>
+            <Link href='https://www.instagram.com/x.monkeybrasil/' target="_blank"><Image src={IconInsta} alt="" width={24} height={24} className="opacity-60"/></Link>
+            {/* <Link href=''><Image src={IconFace} alt="" width={24} height={24} className="opacity-60"/></Link> */}
           </div>
         </GridContainer>
       </div>
