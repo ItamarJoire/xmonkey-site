@@ -10,7 +10,7 @@ import { ButtonPrimary } from '../buttonPrimary'
 
 export function Assessments(){
   return(
-    <section className='pb-10 pt-24 bg-fund bg-[url("/logo-bg.png")] bg-contain bg-no-repeat bg-center'>
+    <section className='pb-10 pt-24 bg-fund '>
      <GridContainer>
       <div>
         <h2 className='title-section text-3xl text-center'>Não somos nós que estamos dizendo.<br /> Dá uma conferida nas nossas avaliações:
