@@ -31,19 +31,35 @@ export const Comments = [
   },
 
   {
-    src: '/people/venera.svg',
+    src: '/people/bruna-varela.svg',
     alt: '',
-    name: 'Venera Carvalho',
+    name: 'Bruna Varela',
     date: 'há 10 meses',
-    text: 'Excelente agência, equipe super prestativa, capacitada e atenciosa. Sou cliente e estou muito satisfeita com todo o trabalho que tem sido feito pela agência nas minhas redes sociais.'
+    text: 'Experiência incrível, recomendo demais! Pessoas muito competentes, obrigada pelo serviço 🤝🏽'
   },
 
   {
-    src: '/people/venera.svg',
+    src: '/people/cezar.svg',
     alt: '',
-    name: 'Venera Carvalho',
-    date: 'há 10 meses',
-    text: 'Excelente agência, equipe super prestativa, capacitada e atenciosa. Sou cliente e estou muito satisfeita com todo o trabalho que tem sido feito pela agência nas minhas redes sociais.'
+    name: 'Ceza: Fale Com',
+    date: 'há 11 meses',
+    text: 'Agência top demais! Equipe focada em fazer sua empresa alcançar os objetivos traçados, um trabalho feito com excelência!'
+  },
+
+  {
+    src: '/people/daisa.svg',
+    alt: '',
+    name: 'Daísa Moraes Moura',
+    date: 'há 11 meses',
+    text: 'A minha experiência foi a melhor possível! Os funcionários são super atenciosos, e estão sempre dispostos a ajudar o cliente.'
+  },
+
+  {
+    src: '/people/natalia.svg',
+    alt: '',
+    name: 'Nathália Alves',
+    date: 'há 09 meses',
+    text: 'A agência tem muita responsabilidade com os clientes, se preocupa em acompanhar de perto cada processo e dar o apoio mais do que necessário.'
   }
 ]
 

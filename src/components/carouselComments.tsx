@@ -75,7 +75,7 @@ export function CarouselComments() {
           {
             Comments.map((comment, index) => (
               <SwiperSlide key={index}>
-                  <div className='mx-auto lg:mx-0 pb-16 px-3 max-w-[347px] bg-white rounded-md'>
+                  <div className='mx-auto lg:mx-0 pb-16 px-3 max-w-[347px] bg-white rounded-md min-h-[320px]'>
                     <blockquote>
                       <cite className='flex items-center gap-3 mt-6 justify-between'>
                         <div className='flex items-center gap-3 mt-2'>
