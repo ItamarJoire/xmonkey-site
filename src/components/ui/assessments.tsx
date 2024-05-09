@@ -28,7 +28,7 @@ export function Assessments(){
           <h2 className='title-section text-3xl text-center'>E aqui está mais alguns clientes que <br /><span className='text-orange-dark'>fazem parte do nosso time</span></h2>
         </div>
 
-        <div className='mt-7 grid grid-cols-3 gap-4 mx-auto md:grid-cols-4 lg:grid-cols-5'>
+        <div className='mt-7 grid grid-cols-3 gap-4 mx-auto md:grid-cols-4 lg:grid-cols-6'>
           {
             Brands.map((brand, index) => (
               <Image src={brand.src} alt={brand.alt} width={112} height={112}/>
