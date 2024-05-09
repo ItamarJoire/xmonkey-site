@@ -1,5 +1,5 @@
 "use client"
-import { useRef, useEffect } from "react"
+import { useRef, useEffect, useState, use } from "react"
 
 import Image from "next/image";
 import Link from "next/link";
@@ -8,8 +8,11 @@ import { gsap } from "gsap"
 
 import LogoXmonkey from "/public/logo.svg"
 import { Bubbles } from "@/components/bubbles";
+import { SendForm } from "../sendForm";
 
 export function Hero(){
+  const [open, setOpen] = useState(false)
+
   const logoRef = useRef(null)
   const titleRef = useRef(null)
   const subtitleRef = useRef(null)
@@ -59,12 +62,12 @@ export function Hero(){
           <p className="text-xl md:text-2xl text-center font-semibold text-body text-opacity-80">Somos <span className="text-[#FF7205]">experts na arte de vendas</span>!</p>
         </div>
 
-        <Link ref={btnRef} href="https://api.whatsapp.com/send?l=pt&phone=557192849259&text=Olá! Tudo bem? Gostaria de impulsionar minhas vendas." target="_blank" className="mt-10">
-          <button className="relative text-[#a1a1aa] text-lg transition-all duration-300 hover:text-white z-10 rounded-full px-5 py-1.5 ring-1 ring-[#a1a1aa]/10 hover:ring-white/15">
+       
+          <button onClick={() => setOpen(true)} className="mt-10 relative text-[#a1a1aa] text-lg transition-all duration-300 hover:text-white z-10 rounded-full px-5 py-1.5 ring-1 ring-[#a1a1aa]/10 hover:ring-white/15">
             Quero vender mais
             <span className="absolute inset-10 h-px w-[calc(100%-6.25rem)] bg-gradient-to-r from-orange-400/0 via-orange-400/90 to-orange-400/0 spanHoverEffect"></span>
           </button>
-        </Link>
+        
 
         <style>
           {`
@@ -79,6 +82,7 @@ export function Hero(){
 
       <Bubbles  />
 
+      { open && <SendForm /> }
     </section>
   )
 }

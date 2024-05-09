@@ -13,8 +13,8 @@ import { SendForm } from "@/components/sendForm"
 export default function Home() {
   return (
     <main>
-      {/* <Hero />
-      <Highlights />
+      <Hero />
+      {/* <Highlights />
       <Services />
       <Work />
       <Testimonials />
@@ -22,7 +22,7 @@ export default function Home() {
       <Assessments />
       <About />
       <Footer /> */}
-      <SendForm />
+      {/* <SendForm /> */}
     </main>
   );
 }
