@@ -8,10 +8,12 @@ import { Assessments } from "@/components/ui/assessments";
 import { About } from "@/components/ui/about";
 import { Footer } from "@/components/ui/footer";
 
+import { SendForm } from "@/components/sendForm"
+
 export default function Home() {
   return (
     <main>
-      <Hero />
+      {/* <Hero />
       <Highlights />
       <Services />
       <Work />
@@ -19,7 +21,8 @@ export default function Home() {
       <Range />
       <Assessments />
       <About />
-      <Footer />
+      <Footer /> */}
+      <SendForm />
     </main>
   );
 }
