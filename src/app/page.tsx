@@ -9,11 +9,13 @@ import { About } from "@/components/ui/about";
 import { Footer } from "@/components/ui/footer";
 
 import { AppProvider } from "@/hooks/useModal";
+import { TabsDemo } from "@/components/aceternity/tabsDemo";
 
 export default function Home() {
   return (
     <AppProvider>
       <Hero />
+      {/* <TabsDemo /> */}
       <Highlights />
       <Services />
       <Work />
