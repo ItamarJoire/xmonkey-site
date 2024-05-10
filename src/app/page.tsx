@@ -8,21 +8,20 @@ import { Assessments } from "@/components/ui/assessments";
 import { About } from "@/components/ui/about";
 import { Footer } from "@/components/ui/footer";
 
-import { SendForm } from "@/components/sendForm"
+import { AppProvider } from "@/hooks/useModal";
 
 export default function Home() {
   return (
-    <main>
+    <AppProvider>
       <Hero />
-      {/* <Highlights />
+      <Highlights />
       <Services />
       <Work />
       <Testimonials />
       <Range />
       <Assessments />
       <About />
-      <Footer /> */}
-      {/* <SendForm /> */}
-    </main>
+      <Footer />
+    </AppProvider>
   );
 }

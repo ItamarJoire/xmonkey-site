@@ -27,7 +27,7 @@ const config: Config = {
         "orange-semi-light": "#FFA122",
         
         "blue-dark": "#0F2844",
-        "blue-light": "#FF9405",
+        "blue-light": "#0D243E",
 
         "title": "#E4E4E7",
         "body": "#A1A1AA",
