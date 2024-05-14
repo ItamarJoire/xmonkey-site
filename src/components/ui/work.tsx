@@ -26,7 +26,7 @@ export function Work(){
             <Image src={IconMoney} alt=""/>
             <h4 className="text-title font-semibold">Menor custo</h4>
           </div>
-          <p className="mt-2 text-body w-[280px]">Levamos os melhores clientes, com um <span className="text-orange-dark">CAC</span> de menor custo e que <span className="text-orange-dark">compre mais vezesa</span> na sua empresa.</p>
+          <p className="mt-2 text-body w-[280px]">Levamos os melhores clientes, com um <span className="text-title">CAC</span> de menor custo e que <span className="text-title">compre mais vezesa</span> na sua empresa.</p>
         </div>
 
         <div>
@@ -34,7 +34,7 @@ export function Work(){
             <Image src={IconPeoples} alt=""/>
             <h4 className="text-title font-semibold">Reduza margens de erro</h4>
           </div>
-          <p className="mt-2 text-body w-[280px]">Fazemos diversos testes para a sua empresa se adaptar o mais rápido ao <span className="text-orange-dark">mundo digital</span>.</p>
+          <p className="mt-2 text-body w-[280px]">Fazemos diversos testes para a sua empresa se adaptar o mais rápido ao <span className="text-title">mundo digital</span>.</p>
         </div>
 
         <div>
@@ -42,7 +42,7 @@ export function Work(){
             <Image src={IconRain} alt=""/>
             <h4 className="text-title font-semibold">Automatizar</h4>
           </div>
-          <p className="mt-2 text-body w-[280px]">Somos focados no <span className="text-orange-dark">aumento do seu faturamento</span>.</p>
+          <p className="mt-2 text-body w-[280px]">Somos focados no <span className="text-title">aumento do seu faturamento</span>.</p>
         </div>
 
         <div>
@@ -50,12 +50,12 @@ export function Work(){
             <Image src={IconPrioritize} alt=""/>
             <h4 className="text-title font-semibold">Prioriza qualidade</h4>
           </div>
-          <p className="mt-2 text-body w-[280px]">Colocamos a qualidade acima de tudo, significa que seus <span className="text-orange-dark">processos estão bem adotados</span>.</p>
+          <p className="mt-2 text-body w-[280px]">Colocamos a qualidade acima de tudo, significa que seus <span className="text-title">processos estão bem adotados</span>.</p>
         </div>
       </div>
 
-      <div className="mt-12  p-[1.6px] bg-gradient-to-r from-orange-dark to-orange-semi-light max-w-[600px] md:max-w-[740px] h-[320px] md:h-[420px] mx-4 rounded-sm md:mx-auto lg:max-w-[1000px] lg:h-[500px]">
-        <ReactPlayer url='https://www.youtube.com/watch?v=AaWcOSVFbK4' width='100%' height='100%' controls/>
+      <div className="mt-12  p-[1.6px]  max-w-[600px] md:max-w-[740px] h-[320px] md:h-[420px] mx-4 rounded-sm md:mx-auto lg:max-w-[1000px] lg:h-[500px]">
+        <ReactPlayer url='https://www.youtube.com/watch?v=AaWcOSVFbK4' width='100%' height='100%' controls />
       </div>
 
        <div className="flex justify-center items-center">

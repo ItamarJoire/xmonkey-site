@@ -1,13 +1,9 @@
 "use client";
+
 import React from "react";
 import { Label } from "@/components/aceternity/label";
 import { Input } from "@/components/aceternity/input";
 import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
 import { useAppContext } from "@/hooks/useModal";
 
 export function SendForm() {
@@ -17,8 +13,9 @@ export function SendForm() {
     e.preventDefault();
     console.log("Form submitted");
   };
+  
   return (
-    <div className="mt-32 absolute z-50 max-w-md w-full mx-auto rounded-none md:rounded-2xl px-8 py-16 shadow-input bg-fund">
+    <div className="mt-12 absolute z-50 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-8 shadow-input bg-fund">
       <h2 className="font-bold text-center text-4xl text-white">
         Entre em contato
       </h2>
@@ -28,21 +25,24 @@ export function SendForm() {
 
       <form className="my-8" onSubmit={handleSubmit}>
           <LabelInputContainer className="mb-4">
-            <Label htmlFor="firstname">Nome</Label>
+            <Label htmlFor="firstname">Seu nome</Label>
             <Input id="firstname" placeholder="" type="text" />
           </LabelInputContainer>
           
-        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
-          <LabelInputContainer>
-            <Label htmlFor="contact">Tel/WhatsApp</Label>
-            <Input id="contact" placeholder="" type="text" />
-          </LabelInputContainer>
-          <LabelInputContainer>
+          <LabelInputContainer className="mb-4">
             <Label htmlFor="email">Email</Label>
             <Input id="email" placeholder="" type="text" />
           </LabelInputContainer>
-        </div>
 
+          <LabelInputContainer className="mb-4">
+            <Label htmlFor="contact">Telefone/WhatsApp</Label>
+            <Input id="contact" placeholder="" type="text" />
+          </LabelInputContainer>
+
+          <LabelInputContainer>
+            <Label htmlFor="company">Nome da sua empresa</Label>
+            <Input id="company" placeholder="" type="text" />
+          </LabelInputContainer>
         <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 
         <button

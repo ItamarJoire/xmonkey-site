@@ -6,6 +6,7 @@ import ImgTraffic from '/public/traffic.svg'
 import ImgDesign from '/public/design.svg'
 import ImgSite from '/public/site.svg'
 import { ButtonPrimary } from "../buttonPrimary";
+import Link from "next/link";
 
 export function Services(){
   return(
@@ -45,11 +46,7 @@ export function Services(){
 
       <div className="flex justify-center items-center">
         <ButtonPrimary name="Investir agora"/>
-      </div>
-
-     
-
-     
+      </div>     
     </section>
   )
 }
