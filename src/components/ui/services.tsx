@@ -17,7 +17,7 @@ export function Services(){
         </div>
       </GridContainer>
 
-      <div className="mx-4 md:mx-6 mt-16 grid gap-8 md:grid-cols-2 lg:mx-[276px] 2xl:mx-[396px]">
+      <div className="mx-4 md:mx-6 mt-16 grid gap-8 md:grid-cols-2 lg:mx-[276px] 2xl:mx-[594px]">
         <Card 
           image={ImgSocial} 
           title="Gerenciamento de redes sociais" 
