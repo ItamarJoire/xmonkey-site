@@ -15,7 +15,7 @@ export function SendForm() {
   };
   
   return (
-    <div className="mt-12 absolute z-50 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-8 shadow-input bg-fund">
+    <div className="md:mt-12 absolute z-50 max-w-md w-full mx-auto rounded-none md:rounded-2xl p-8 shadow-input bg-fund">
       <h2 className="font-bold text-center text-4xl text-white">
         Entre em contato
       </h2>
@@ -30,7 +30,7 @@ export function SendForm() {
           </LabelInputContainer>
           
           <LabelInputContainer className="mb-4">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email">Email corporativo</Label>
             <Input id="email" placeholder="" type="text" />
           </LabelInputContainer>
 
@@ -40,7 +40,7 @@ export function SendForm() {
           </LabelInputContainer>
 
           <LabelInputContainer>
-            <Label htmlFor="company">Nome da sua empresa</Label>
+            <Label htmlFor="company">Nome da empresa</Label>
             <Input id="company" placeholder="" type="text" />
           </LabelInputContainer>
         <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
